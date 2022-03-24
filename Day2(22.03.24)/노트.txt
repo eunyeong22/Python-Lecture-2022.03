@@ -1,0 +1,25 @@
+* fomatted string : python 3.6이상에서는 사용가능
+
+print(f'{year}-{month}-{day}')  
+2022-3-24
+
+print(f'{year}-{month:02d}-{day}')  # 포맷팅을 적용하겠다는 의미가 : 이거임, month를 포맷팅하겠다..
+2022-03-24
+
+print(year,'-',month,'-',day, sep='')
+
+format - C, JAVA, JS....
+정수 : %d    %02d→숫자 두자리 '03'
+실수 : %f     %4.1f→3.4
+문자열: %s   %4s→time
+
+자바스크립에서는 포맷스트링을  template literal이라고 함 ` ` 여기 안에 있는 게 포맷티드 스트링됨
+fomatte string : f' ',  f" ", f''' ''', f""" """ 사용가능
+
+
+* 자료구조 DB / 기본적인 4가지 오퍼레이션
+C : Create
+R : Read, Retrieve
+U : Update
+D : delete
+ 
